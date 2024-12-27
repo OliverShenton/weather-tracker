@@ -1,0 +1,101 @@
+.weather-display {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.weather-actions {
+  margin-bottom: 20px;
+}
+
+.weather-actions .current-location {
+  background-color: red;
+}
+
+.weather-actions .current-location:hover {
+  background-color: rgb(226, 2, 2);
+}
+
+.weather-actions button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-actions button:hover {
+  background-color: #357abd;
+}
+
+.search-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffd700;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #f1c40f;
+}
+
+.city-name {
+  font-size: 3em;
+}
+
+.weather-current {
+  font-size: 18px;
+  padding: 15px;
+  border: 2px gold solid;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 1rem auto;
+  width: 250px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.forecast-day {
+  text-align: center;
+  padding: 15px;
+  border: 2px gold solid;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 1rem;
+  width: 150px;
+}
+
+.weather-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.error {
+  color: red;
+}
